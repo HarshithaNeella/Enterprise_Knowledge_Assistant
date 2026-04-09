@@ -35,6 +35,7 @@ Developed as part of a **Generative AI Internship**, this project focuses on bui
 
 ---
 
+
 ## 🧰 Tech Stack
 
 - **AWS Bedrock** – Knowledge Base, Vector Retrieval  
@@ -45,10 +46,13 @@ Developed as part of a **Generative AI Internship**, this project focuses on bui
 
 ---
 
+## 🌐 Live Demo
+https://enterpriseknowledgeassistant-zu4sthrezt6pmrmpgygp9p.streamlit.app/
+
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
-```bash
+bash
 git clone <your-repo-link>
 cd <project-folder>
 
@@ -68,3 +72,11 @@ aws configure
 
 ### 6.Run the application
 Run the application
+
+📌 Notes
+Ensure your AWS IAM user has:
+AmazonBedrockFullAccess
+AmazonS3FullAccess
+Upload your documents (PDFs) to S3 before querying
+Bedrock Knowledge Base must be created and synced
+
