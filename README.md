@@ -74,9 +74,14 @@ aws configure
 Run the application
 
 📌 Notes
+
 Ensure your AWS IAM user has:
+
 AmazonBedrockFullAccess
+
 AmazonS3FullAccess
+
 Upload your documents (PDFs) to S3 before querying
+
 Bedrock Knowledge Base must be created and synced
 
